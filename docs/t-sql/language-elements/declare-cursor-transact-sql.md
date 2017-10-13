@@ -179,7 +179,7 @@ Você não pode usar cursores ou gatilhos em uma tabela com um índice columnsto
 ## <a name="examples"></a>Exemplos  
   
 ### <a name="a-using-simple-cursor-and-syntax"></a>A. Usando a sintaxe e o cursor simples  
- O conjunto de resultados gerado na abertura deste cursor inclui todas as linhas e todas as colunas na tabela. Este cursor pode ser atualizado e todas as atualizações e exclusões são representadas em buscas feitas no cursor. `FETCH``NEXT` é a única busca disponível porque a opção `SCROLL` não foi especificada.  
+ O conjunto de resultados gerado na abertura deste cursor inclui todas as linhas e todas as colunas na tabela. Este cursor pode ser atualizado e todas as atualizações e exclusões são representadas em buscas feitas no cursor. `FETCH NEXT` é a única busca disponível porque a opção `SCROLL` não foi especificada.  
   
 ```  
 DECLARE vend_cursor CURSOR  
